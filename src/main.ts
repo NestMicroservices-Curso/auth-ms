@@ -20,6 +20,8 @@ async function bootstrap() {
       forbidNonWhitelisted: true
     })
   );
+
+  console.log('AuthMS - Testing Logs')
   await app.listen();
 }
 bootstrap();
